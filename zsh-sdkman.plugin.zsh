@@ -159,8 +159,6 @@ _sdk-refresh-completion-files-auto() {
 }
 
 # Manual command to be used by the users for troubleshooting
-sdk-refresh-completion-files() {
+sdk-refresh() {
   _init_zsh-sdkman_plugin
 }
-
-_sdk-refresh-completion-files-auto
